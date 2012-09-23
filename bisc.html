@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    float: left;
+}
+#main {
+    height: 104px;
+    width: 104px;
+}
+.corner {
+    background: none repeat scroll 0 0 black;
+    height: 4px;
+    width: 4px;
+}
+.horLine {
+    background: none repeat scroll 0 0 blue;
+    height: 4px;
+    width: 16px;
+}
+.verLine {
+    background: none repeat scroll 0 0 blue;
+    height: 16px;
+    width: 4px;
+}
+.verLineSpace {
+    background: none repeat scroll 0 0 transparent;
+    height: 16px;
+    width: 16px;
+}
+.unavailable {
+    background: none repeat scroll 0 0 transparent;
+}
+.available, .drawn {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid blue;
+}
+.drawn {
+    background: none repeat scroll 0 0 blue;
+}
+.verLine.available, .verLine.drawn {
+    height: 14px;
+    width: 2px;
+}
+.horLine.available, .horLine.drawn {
+    height: 2px;
+    width: 14px;
+}
+.verLineSpace.red {
+    background: none repeat scroll 0 0 red;
+}
+.verLineSpace.green {
+    background: none repeat scroll 0 0 green;
+}
+</style>
+</head>
+
+<body>
+
+<div id="main">
+</div>
+
+<script src="js/functia.js">
+</script>
+
+</body>
+</html>
